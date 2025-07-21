@@ -11,7 +11,7 @@ store.commit('setFirstVisitStatus', { propValue: false });
 </script>
 
 <template>
-  <form>
+  <form @submit.prevent>
     <NumberInput id="workInterval" :min="1" :max="120" label="Work Interval" /><span>min</span><br>
     <NumberInput id="shortBreak" :min="1" :max="120" label="Short break" /><span>min</span><br>
     <NumberInput id="shortBreakCount" :min="1" :max="10" label="Short break count" /><span>breaks</span><br>

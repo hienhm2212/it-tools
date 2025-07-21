@@ -59,7 +59,7 @@ const tools = computed<ToolCategory[]>(() => [
 
         <div class="footer">
           <div>
-            IT-Tools
+            MIMS IT-Tools
 
             <c-link target="_blank" rel="noopener" :href="`https://github.com/sharevb/it-tools/tree/v${version}`">
               v{{ version }}
